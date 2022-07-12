@@ -1,0 +1,79 @@
+body{
+    background: rgb(201, 201, 255);
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 50vh;
+}
+.container .see-name-btn{
+    padding: 10px;
+    font-size: 1.5rem;
+    background: rgba(46, 46, 175, 0.5);
+    color: white;
+    border: 1px solid rgba(46, 46, 175, 0.5);
+    border-radius: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.container .see-name-btn:hover{
+    background: rgb(46, 46, 175 );
+    border: 1px solid rgb(46, 46, 175);
+}
+
+.name-of-recipe{
+    background: white;
+    border: 1px solid white;
+    margin-top: 50px;
+    border-radius: 7px;
+    font-size: 2.5rem;
+    min-width: 10%;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+}
+
+.container .see-recipe-btn{
+    padding: 10px;
+    font-size: 1.5rem;
+    background: rgba(46, 46, 175, 0.5);
+    color: white;
+    border: 1px solid rgba(46, 46, 175, 0.5);
+    border-radius: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-top: 20px;
+    opacity: 0;
+}
+.container .see-recipe-btn:hover{
+    background: rgb(46, 46, 175 );
+    border: 1px solid rgb(46, 46, 175);
+}
+
+.container .recipe-div{
+    background: white;
+    border: 1px solid white;
+    margin-top: 50px;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    width: 80%;
+    text-align: center;
+    opacity: 0;
+
+}
+.see-ingrediens-btn{
+    padding: 10px;
+    font-size: 1.5rem;
+    background: rgba(46, 46, 175, 0.5);
+    color: white;
+    border: 1px solid rgba(46, 46, 175, 0.5);
+    border-radius: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-top: 20px;
+    opacity: 0;
+}
